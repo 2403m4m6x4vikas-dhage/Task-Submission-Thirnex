@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>console.log('Navigating to '+a.getAttribute('href'))));});
